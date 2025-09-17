@@ -4,6 +4,7 @@ import plotly.express as px
 import streamlit as st
 
 df = pd.read_csv('vehicles_us.csv')
+st.header('Proyecto de Sprint 7 | Emyl González')
 hist_button = st.button('Mostrar Histograma')
 scatter_button = st.button('Mostrar Gráfico de Dispersión')
 
