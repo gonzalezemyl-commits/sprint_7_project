@@ -10,7 +10,7 @@ scatter_button = st.button('Mostrar Gráfico de Dispersión')
 
 if hist_button:
 
-    st.wrtite('Histograma de Precios de Autos')
+    st.write('Histograma de Precios de Autos')
 
     bins = np.arange(1000, 61000, 1000)
     fig = px.histogram(df,x='price',nbins=500)
